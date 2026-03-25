@@ -49,7 +49,9 @@ h1 {
     font-size: 0.875rem;
     color: #4b5563;
 }
-
+.resume {
+    margin-top: 10px;
+}
 .section-label {
     font-size: 0.7rem;
     font-weight: 600;
