@@ -2,73 +2,15 @@ body {
     font-family: ui-sans-serif, system-ui, sans-serif;
     background: #111827;
     color: #f9fafb;
-    max-width: 640px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 4rem 1.5rem;
     -webkit-font-smoothing: antialiased;
+    text-align: center;
 }
-
-.top {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 3rem;
-}
-
-h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.25rem;
-    color: #f9fafb;
-}
-
-.role {
-    font-size: 0.875rem;
-    color: #9ca3af;
-}
-
-.links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 0.4rem;
-}
-
-.links a {
-    font-size: 0.875rem;
-    color: #d1d5db;
-    text-decoration: none;
-}
-
-.links a:hover {
-    color: #f9fafb;
-    text-decoration: underline;
-}
-
-.links .soon {
-    font-size: 0.875rem;
-    color: #4b5563;
-}
-.resume {
-    margin-top: 10px;
-}
-.section-label {
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #6b7280;
-    margin-bottom: 0.4rem;
-    margin-top: 2rem;
-}
-
-p {
-    font-size: 0.975rem;
-    line-height: 1.75;
-    color: #d1d5db;
-}
-
-.sig {
-    margin-top: 3rem;
-    color: #4b5563;
+ .links { 
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: 0.4rem 1.5rem;
+    text-align: left;
 }
